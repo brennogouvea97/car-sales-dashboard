@@ -4,7 +4,7 @@ import streamlit as st
 
 car_data = pd.read_csv('vehicles_us.csv')
 hist_title = st.header('Análise de anúncios de venda de carros nos EUA')
-hist_button = st.button('Criar histograma')
+hist_button = st.checkbox('Criar histograma')
 hist_checkbox = st.checkbox('Mostrar gráfico de dispersão')
 box_checkbox = st.checkbox('Mostrar relação entre combustível e preço')
 
